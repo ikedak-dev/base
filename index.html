@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="l-header p-header">
+      <a href="#" class="l-header__logo p-header-logo"><img src="./images/logo/logo.svg" alt="企業ロゴ" /></a>
+      <button class="l-header__hamburger p-header-hamburger c-hamburger js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="l-header__nav js-hamburger-target">
+        <ul class="p-header-list">
+          <li class="p-header-list__item"><a href="" class="p-header-list__link">リンク</a></li>
+          <li class="p-header-list__item"><a href="" class="p-header-list__link">リンク</a></li>
+          <li class="p-header-list__item js-list-item">
+            <div class="p-header-list__link-wrapper">
+              <a href="" class="p-header-list__link">リンク</a>
+              <button class="js-list-btn"><img src="./images/logo/arrow.svg" alt="開閉用の矢印" /></button>
+            </div>
+            <ul class="p-header-sublist js-list-btn-target">
+              <li class="p-header-sublist__item"><a href="" class="p-header-sublist__link">インナーリンク</a></li>
+              <li class="p-header-sublist__item"><a href="" class="p-header-sublist__link">インナーリンク</a></li>
+              <li class="p-header-sublist__item"><a href="" class="p-header-sublist__link">インナーリンク</a></li>
+            </ul>
+          </li>
+          <li class="p-header-list__item"><a href="" class="p-header-list__link">リンク</a></li>
+          <li class="p-header-list__item"><a href="" class="p-header-list__link">リンク</a></li>
+          <li class="p-header-list__item p-header-list__item--cta c-cta"><a href="" class="p-header-list__link p-header-list__link--cta">CTAリンク</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="l-main"></main>
+    <footer class="l-footer"></footer>
+    <script src="./js/common.js"></script>
+  </body>
+</html>

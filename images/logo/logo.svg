@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 282.39 131.45">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .19em;
+      }
+
+      .cls-2 {
+        letter-spacing: .2em;
+      }
+
+      .cls-3 {
+        fill: #50d1bb;
+      }
+
+      .cls-4 {
+        fill: #898686;
+        font-size: 18.84px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: Quicksand-Regular, Quicksand;
+      }
+
+      .cls-6 {
+        letter-spacing: .17em;
+      }
+
+      .cls-7 {
+        fill: #777676;
+        font-size: 38.1px;
+      }
+
+      .cls-8 {
+        fill: #c6c4c4;
+      }
+
+      .cls-9 {
+        fill: #f4624a;
+      }
+
+      .cls-10 {
+        letter-spacing: .2em;
+      }
+
+      .cls-11, .cls-12 {
+        font-family: Quicksand-Bold, Quicksand;
+        font-weight: 700;
+      }
+
+      .cls-13 {
+        fill: #f2cb51;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="OBJECTS">
+    <g>
+      <g>
+        <text class="cls-7" transform="translate(20.37 100.16)"><tspan class="cls-12" x="0" y="0">L</tspan><tspan class="cls-11" x="21.03" y="0">OREM</tspan><tspan class="cls-5" x="129.11" y="0">IPSUM</tspan></text>
+        <text class="cls-4" transform="translate(21.7 127.38)"><tspan class="cls-6" x="0" y="0">Y</tspan><tspan class="cls-2" x="13.81" y="0">OUR S</tspan><tspan class="cls-1" x="88.86" y="0">L</tspan><tspan class="cls-10" x="102.46" y="0">OGAN HERE</tspan></text>
+      </g>
+      <g>
+        <g>
+          <polygon class="cls-8" points="200.4 0 141.19 55.82 141.19 27.91 200.4 0"/>
+          <polygon class="cls-9" points="81.99 0 141.19 55.82 141.19 27.91 81.99 0"/>
+        </g>
+        <g>
+          <g>
+            <polygon class="cls-8" points="0 55.82 59.21 0 59.21 27.91 0 55.82"/>
+            <polygon class="cls-3" points="118.41 55.82 59.21 0 59.21 27.91 118.41 55.82"/>
+          </g>
+          <g>
+            <polygon class="cls-8" points="282.39 55.82 223.18 0 223.18 27.91 282.39 55.82"/>
+            <polygon class="cls-13" points="163.98 55.82 223.18 0 223.18 27.91 163.98 55.82"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

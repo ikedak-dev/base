@@ -1,0 +1,56 @@
+@use "../foundation/forwards" as *;
+
+.l-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: $header-height;
+  background-color: $c-header;
+  color: $c-white;
+
+  &__logo {
+  }
+  &__hamburger {
+    display: flex;
+    margin-left: auto;
+  }
+  &__nav {
+    background-color: $c-header;
+    position: fixed;
+    top: $header-height;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    padding: 0 32px;
+    overflow-y: hidden;
+    transition: all 0.3s ease-out;
+    &.active {
+      height: 100dvh;
+    }
+  }
+
+  @include breakpoint(pc) {
+    padding: 0 0 0 32px;
+
+    &__hamburger {
+      display: none;
+    }
+    &__nav {
+      position: relative;
+      display: block;
+      top: initial;
+      left: initial;
+      overflow-y: initial;
+      width: fit-content;
+      height: 100%;
+      margin-left: auto;
+      background-color: initial;
+      padding: initial;
+
+      &.active {
+        height: 100%;
+      }
+    }
+  }
+}
